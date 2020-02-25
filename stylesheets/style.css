@@ -1,0 +1,12 @@
+nav {
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  height: 105%;
+}
+.menu-btn {
+  border: none;
+}
