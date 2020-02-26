@@ -36,7 +36,26 @@ nav img {
    line-height: 30px;
 }
 
+/*Main seccion title*/
+.title-main {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.title-main .title-hr {
+	position: relative;
+	padding-left: 25%;
+}
+
+h1 {
+	max-width: 390px;
+}
+
 /*images in main*/
+figure {
+  padding-right: 12%;
+  padding-left: 12%;
+}
 main img {
   width: 100%;
   height: 100%;
@@ -51,6 +70,19 @@ iframe {
 figcaption {
   font-family: georgia, serif;
 }
+
+/*styling for Article seccion*/
+article {
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+article div {
+	max-width: 600px;
+}
+
 
 /*Info of an element*/
 .element-info {
@@ -77,7 +109,7 @@ a.name-author:hover {
   text-decoration: none;
 }
 
-p.post {
+article div p {
   font-family: georgia,'times new roman',times,serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -92,3 +124,17 @@ i {
   width: 15px;
   height: 15px;
 }
+
+/*aside grid*/
+#aside-grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	width: 280px;
+}
+aside {
+	display:block;
+	float: right;
+	
+}
+
+
