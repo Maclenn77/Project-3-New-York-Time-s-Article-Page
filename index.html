@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
+  <!-- Navbar. Styled with flexbox. It contains menu buttons, NYTimes logo and sign-in buttons -->
     <nav>
       <div>
         <button class="menu-btn">
@@ -20,13 +21,34 @@
       </div>
       <div><img src="./img/logo.png"></div>
       <div>
-        <button>SUBSCRIBE</button>
-        <button>LOG IN</button>
+        <button class="sign-in-btn">SUBSCRIBE NOW</button>
+        <button class="sign-in-btn">LOG IN</button>
       </div>
     </nav>
+    <!-- Main section. Main article, Author info, Date info, social icons and images-->
     <main>
+      <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
+    <!-- Image and <figcaption> tags -->
+      <figure>
+        <img src="img/18cosmos-superJumbo.jpg">
+        <figcaption>
+          <span class="element-info">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago. </span>
+          <span class="copyright">Rick Friedman for The New York Times</span>
+        </figcaption>
+      </figure>
       <article class="">
-
+        <span class="author-name">By <author>Dennis Overbye</author><span>
+        <div class="social-time">
+          <time datetime="2014-03-17">March 17, 2014</time>
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <p class="post">CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.</p>
       </article>
     </main>
     <aside class="">
@@ -35,4 +57,6 @@
     <footer>
     </footer>
   </body>
+  <!--Social icons from fontawesome-->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </html>
