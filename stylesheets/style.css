@@ -113,10 +113,83 @@ hr {
 	margin-left: -40px;
 }
 
+#feat-img {
+	display: flex;
+	justify-content: center;
+}
+
+#feat-img div {
+  max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#feat-img img {
+  width: 600px;
+  height: 400px;
+  
+}
+
+.article-bottom div {
+	box-sizing: border-box;
+	padding-top: 1%;
+}
+
+.article-bottom div div {
+	box-sizing: padding-box;
+}
+
+.article-bottom div div div {
+	box-sizing: content-box;
+}
+
+.article-bottom span {
+	color: rgb(102, 102, 102);
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.article-bottom span a {
+	color: rgb(102, 102, 102);
+	font-size: 11px;
+}
+
+.article-bottom button {
+	width: 50%;
+}
+
+.article-bottom div div div i{
+	float: right;
+	border:1px solid #eee;
+	border-radius: 100%;
+	background-color: #eee;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#border-box {
+	box-sizing: border-box;
+}
+
+#padding-box {
+	box-sizing: padding-box;
+}
+
+#content-box {
+	box-sizing: content-box;
+}
+
+.social-icons i {
+	float: right;
+}
 
 /*Info of an element*/
 .element-info {
   color: #666;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 /*Copyright info*/
