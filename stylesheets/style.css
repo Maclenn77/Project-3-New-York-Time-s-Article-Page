@@ -72,15 +72,44 @@ figcaption {
 }
 
 /*styling for Article seccion*/
-article {
+.article-sec {
 	display: flex;
 	justify-content: center;
 
 
 }
 
-article div {
+article .post{
 	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#article-img {
+	padding-right: 13%;
+	padding-left: 13%;
+
+}
+
+hr {
+	width: 100px;
+	text-align: center;
+	
+	color: gray;
+}
+.sub-promo {
+	text-align: center;
+	list-style: none;
+	font-weight: 800;
+	
+}
+
+.sub-promo .ad-promo {
+	color: rgb(50, 104, 145);
+}
+
+.sub-promo {
+	margin-left: -40px;
 }
 
 
@@ -140,12 +169,13 @@ aside {
 /*Creates a grid for image about universe inflation*/
 .wrapper {
 	display: grid;
-	width: 630px;
-	height: 384px;
+	width: 945px;
+	height: 576px;
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 25% 25% 25% 25%;
   grid-column-gap: 3px;
   justify-content: space-between;
+
 }
 
 /*Inflation images takes all the grid*/
@@ -153,8 +183,8 @@ aside {
 .image-grid {
 	grid-column: 1/5;
 	grid-row: 1/5;
-	width: 630px;
-	height: 384px;
+	width: 945px;
+	height: 576px;
 }
 
 /*Fix line-height of paragraphs*/
