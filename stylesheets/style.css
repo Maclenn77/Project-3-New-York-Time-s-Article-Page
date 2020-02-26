@@ -63,7 +63,8 @@ main img {
 
 /*Video embedded style*/
 iframe {
-  margin: 43px auto;
+  width: 100%;
+  height: 360px;
 }
 
 /*style in figcaption elements*/
@@ -94,14 +95,14 @@ article .post{
 hr {
 	width: 100px;
 	text-align: center;
-	
+
 	color: gray;
 }
 .sub-promo {
 	text-align: center;
 	list-style: none;
 	font-weight: 800;
-	
+
 }
 
 .sub-promo .ad-promo {
@@ -245,4 +246,9 @@ aside {
 	grid-column: 4/5;
 	grid-row: 4/5;
 	font-size: 8px;
+}
+
+.inside {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
