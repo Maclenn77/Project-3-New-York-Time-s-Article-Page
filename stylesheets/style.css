@@ -16,7 +16,7 @@ footer hr {
   width: 90%;
   text-align: center;
   color: #333;
- 
+
 
 
 }
@@ -144,21 +144,16 @@ nav img {
    line-height: 30px;
 }
 
-/*Main seccion title*/
-.title-main {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
-.title-main .title-hr {
-	position: relative;
+h1 {
+	max-width: 390px;
+  position: relative;
 	padding-left: 25%;
 }
 
-h1 {
-	max-width: 390px;
+main {
+  display: flex;
+  flex-direction: column;
 }
-
 /*images in main*/
 main figure {
   padding-right: 12%;
@@ -281,11 +276,19 @@ i {
 #aside-grid {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	width: 280px;
+  grid-template-rows: 10px repeat(4,1fr)
+	width: 350px;
+  grid-row-gap: 40px;
 }
 aside {
-	display:block;
-	float: right;
+  align-self: flex-end;
+  position: relative;
+  top: 1000px;
+}
+
+aside img {
+  width: 72px;
+  height: 72px;
 }
 
 /*Creates a grid for image about universe inflation*/
