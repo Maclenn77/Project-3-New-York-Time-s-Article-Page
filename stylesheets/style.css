@@ -52,7 +52,7 @@ h1 {
 }
 
 /*images in main*/
-figure {
+.main-media figure {
   padding-right: 12%;
   padding-left: 12%;
 }
@@ -113,83 +113,10 @@ hr {
 	margin-left: -40px;
 }
 
-#feat-img {
-	display: flex;
-	justify-content: center;
-}
-
-#feat-img div {
-  max-width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-
-#feat-img img {
-  width: 600px;
-  height: 400px;
-  
-}
-
-.article-bottom div {
-	box-sizing: border-box;
-	padding-top: 1%;
-}
-
-.article-bottom div div {
-	box-sizing: padding-box;
-}
-
-.article-bottom div div div {
-	box-sizing: content-box;
-}
-
-.article-bottom span {
-	color: rgb(102, 102, 102);
-	font-size: 11px;
-	font-weight: 500;
-}
-
-.article-bottom span a {
-	color: rgb(102, 102, 102);
-	font-size: 11px;
-}
-
-.article-bottom button {
-	width: 50%;
-}
-
-.article-bottom div div div i{
-	float: right;
-	border:1px solid #eee;
-	border-radius: 100%;
-	background-color: #eee;
-	margin-right: 8px;
-	margin-left: 8px;
-}
-
-#border-box {
-	box-sizing: border-box;
-}
-
-#padding-box {
-	box-sizing: padding-box;
-}
-
-#content-box {
-	box-sizing: content-box;
-}
-
-.social-icons i {
-	float: right;
-}
 
 /*Info of an element*/
 .element-info {
   color: #666;
-  font-size: 13px;
-  font-weight: 400;
 }
 
 /*Copyright info*/
@@ -324,4 +251,58 @@ aside {
 .inside {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+}
+
+/* Info about print version*/
+.prin-info {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+}
+
+/* Grid in Most Popular section */
+
+.most-popular {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 40px 182px 90px);
+}
+
+/* Title in Most popular section */
+
+.most-popular h2 {
+  font-size: 0.875rem;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.most-popular h3 {
+  font-size: 1.125;
+  color: rgb(18, 18, 18);
+  line-height: 22px;
+}
+
+.most-popular time {
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+}
+
+.most-popular figcaption {
+  font-size: 0.625rem;
+  color: rgb(153, 153, 153);
+}
+
+.most-popular img {
+  width: 273px;
+  height: 182px;
+}
+
+#popular-image1 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+#mostpopular1 {
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
