@@ -5,6 +5,59 @@ body {
    font-size: 14px;
 }
 
+/* Nav for footer*/
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+footer nav span {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+footer nav section {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+footer nav section:nth-child(1) {
+  padding-left: 6%;
+  padding-bottom: 30px;
+}
+
+footer nav section:nth-child(6) {
+  border-left: 2px solid #eee;
+  padding-left: 2%;
+  
+}
+
+footer nav section:nth-child(6) span:nth-child(8){
+  border-bottom: 2px solid #eee;
+  padding-bottom: 4%;
+  
+  
+}
+
+footer nav section:nth-child(6) span:nth-child(9){
+  padding-top: 6%;
+}
+
+footer nav section h2 {
+  color: #333;
+  font-weight: 700;
+  font-size:13px;
+}
+
+footer nav section span a {
+  font-weight: 500;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
 /* Nav bar styling*/
 nav {
    border-bottom: 1px solid #e2e2e2;
@@ -12,6 +65,7 @@ nav {
    display: flex;
    justify-content: space-between;
 }
+
 
 /*New York Times Logo image*/
 nav img {
