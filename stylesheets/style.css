@@ -12,6 +12,49 @@ body {
 }
 
 /* Nav for footer*/
+footer hr {
+  width: 90%;
+  text-align: center;
+  color: #333;
+ 
+
+
+}
+
+.footer-logo {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.footer-logo a {
+  color: #567b95;
+  font-size: 11px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.footer-logo a:hover {
+  text-decoration: underline;
+}
+
+footer section:nth-child(1){
+  box-sizing: padding-box;
+
+}
+
+footer section:nth-child(1) figure {
+  box-sizing: content-box;
+
+}
+
+#go-home {
+  float:right;
+
+}
+
+
+
 footer nav {
   display: flex;
   justify-content: space-between;
@@ -37,6 +80,7 @@ footer nav section:nth-child(1) {
 footer nav section:nth-child(6) {
   border-left: 2px solid #eee;
   padding-left: 2%;
+  padding-right: 8%;
 
 }
 
@@ -157,6 +201,11 @@ article .post{
 
 }
 
+#feat-img {
+  padding-left: 23%;
+  padding-right: 25%;
+}
+
 .sub-promo hr {
 	width: 100px;
 	text-align: center;
@@ -178,15 +227,23 @@ article .post{
 	margin-left: -40px;
 }
 
+.article-bottom i {
+  float: right;
+}
+
 
 /*Info of an element*/
 .element-info {
   color: #666;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 /*Copyright info*/
 .copyright {
   color: #888;
+  font-size: 11px;
+  font-weight: 300;
 }
 
 /*Styling Author section*/
@@ -489,6 +546,7 @@ aside {
 
 .legal span {
   padding: 10px;
+  font-size: 13px;
 }
 
 .legal a {
