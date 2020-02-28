@@ -124,9 +124,9 @@ nav img {
 }
 
 h1 {
-	max-width: 390px;
+  max-width: 390px;
   position: relative;
-	padding-left: 25%;
+  padding-left: 25%;
 }
 
 main {
@@ -168,15 +168,15 @@ figcaption {
 }
 
 .article-sec {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   padding-top: 3%;
 }
 
 article .post {
-	max-width: 600px;
-	margin-left: auto;
-	margin-right: auto;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article .post hr {
@@ -194,8 +194,8 @@ article .post hr {
 }
 
 #article-img {
-	padding-right: 13%;
-	padding-left: 13%;
+  padding-right: 13%;
+  padding-left: 13%;
 }
 
 #feat-img {
@@ -205,23 +205,23 @@ article .post hr {
 }
 
 .sub-promo hr {
-	width: 100px;
-	text-align: center;
-	color: gray;
+  width: 100px;
+  text-align: center;
+  color: gray;
 }
 
 .sub-promo {
-	text-align: center;
-	list-style: none;
-	font-weight: 800;
+  text-align: center;
+  list-style: none;
+  font-weight: 800;
 }
 
 .sub-promo .ad-promo {
-	color: rgb(50, 104, 145);
+  color: rgb(50, 104, 145);
 }
 
 .sub-promo {
-	margin-left: -40px;
+  margin-left: -40px;
 }
 
 .article-bottom i {
@@ -298,10 +298,10 @@ i {
 
 /* aside grid */
 .aside-grid {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 10px repeat(4, 1fr);
-	width: 350px;
+  width: 350px;
   grid-row-gap: 20px;
 }
 
@@ -327,11 +327,11 @@ aside img {
 
 /*  Creates a grid for image about universe inflation  */
 .wrapper {
-	display: grid;
-	width: 945px;
-	height: 576px;
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 25% 25% 25% 25%;
+  display: grid;
+  width: 945px;
+  height: 576px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
   grid-column-gap: 3px;
   justify-content: space-between;
 }
@@ -339,10 +339,10 @@ aside img {
 /* Inflation images takes all the grid */
 
 .image-grid {
-	grid-column: 1/5;
-	grid-row: 1/5;
-	width: 945px;
-	height: 576px;
+  grid-column: 1/5;
+  grid-row: 1/5;
+  width: 945px;
+  height: 576px;
 }
 
 /* Fix line-height of paragraphs */
@@ -352,57 +352,57 @@ aside img {
 
 /* Order the text on the image */
 #text1 {
-	grid-column: 1/2;
-	grid-row: 2/3;
-	font-size: 8px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 8px;
 }
 
 #text2 {
-	grid-column: 2/3;
-	grid-row: 2/3;
-	font-size: 8px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 8px;
 }
 
 #text2 {
-	grid-column: 2/3;
-	grid-row: 2/3;
-	font-size: 8px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 8px;
 }
 
 #text3 {
-	grid-column: 3/4;
-	grid-row: 2/3;
-	font-size: 8px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  font-size: 8px;
 }
 
 #text4 {
-	grid-column: 4/5;
-	grid-row: 2/3;
-	font-size: 8px;
+  grid-column: 4/5;
+  grid-row: 2/3;
+  font-size: 8px;
 }
 
 #text5 {
-	grid-column: 1/2;
-	grid-row: 4/5;
-	font-size: 8px;
+  grid-column: 1/2;
+  grid-row: 4/5;
+  font-size: 8px;
 }
 
 #text6 {
-	grid-column: 2/3;
-	grid-row: 4/5;
-	font-size: 8px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  font-size: 8px;
 }
 
 #text7 {
-	grid-column: 3/4;
-	grid-row: 4/5;
-	font-size: 8px;
+  grid-column: 3/4;
+  grid-row: 4/5;
+  font-size: 8px;
 }
 
 #text8 {
-	grid-column: 4/5;
-	grid-row: 4/5;
-	font-size: 8px;
+  grid-column: 4/5;
+  grid-row: 4/5;
+  font-size: 8px;
 }
 
 .inside {
