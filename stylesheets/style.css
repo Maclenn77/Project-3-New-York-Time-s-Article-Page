@@ -23,6 +23,13 @@ footer hr {
   padding-right: 2%;
 }
 
+footer nav a {
+  font-weight: 500;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
 .footer-logo a {
   color: #567b95;
   font-size: 11px;
@@ -37,6 +44,19 @@ footer hr {
 
 #go-home {
   float: right;
+}
+
+/*  Nav bar styling  */
+nav {
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  New York Times Logo image  */
+nav img {
+  height: 100%;
 }
 
 footer nav {
@@ -81,28 +101,8 @@ footer nav section h2 {
   font-size: 13px;
 }
 
-footer nav a {
-  font-weight: 500;
-  font-size: 12px;
-  color: #000;
-  text-decoration: none;
-}
-
 footer a: hover {
   text-decoration: underline;
-}
-
-/*  Nav bar styling  */
-nav {
-  border-bottom: 1px solid #e2e2e2;
-  padding-bottom: 5px;
-  display: flex;
-  justify-content: space-between;
-}
-
-/*  New York Times Logo image  */
-nav img {
-  height: 100%;
 }
 
 /*  Leftmost buttons  */
@@ -156,6 +156,17 @@ figcaption {
   font-family: georgia, serif;
 }
 
+/*  Icon styling */
+
+i {
+  border-radius: 100%;
+  background-color: #eee;
+  border: 1px #e2e2e2;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+}
+
 /* styling for Article seccion  */
 
 .social-icons i {
@@ -177,6 +188,17 @@ article .post {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sub-promo hr {
+  width: 100px;
+  text-align: center;
+  color: gray;
+}
+
+.mostpopular-right hr {
+  width: 100%;
+  color: #eee;
 }
 
 article .post hr {
@@ -204,24 +226,15 @@ article .post hr {
   max-width: 600px;
 }
 
-.sub-promo hr {
-  width: 100px;
-  text-align: center;
-  color: gray;
-}
-
 .sub-promo {
   text-align: center;
   list-style: none;
   font-weight: 800;
+  margin-left: -40px;
 }
 
 .sub-promo .ad-promo {
   color: rgb(50, 104, 145);
-}
-
-.sub-promo {
-  margin-left: -40px;
 }
 
 .article-bottom i {
@@ -259,7 +272,7 @@ a.name-author: hover {
 }
 
 article div p {
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
@@ -280,20 +293,20 @@ article div p {
   line-height: 15px;
 }
 
+.aside-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.legal a {
+  text-decoration: none;
+  color: #666;
+}
+
 .article-bottom p a {
   font-size: 10px;
   color: rgb(102, 102, 102);
   line-height: 14px;
-}
-
-/*  Icon styling */
-i {
-  border-radius: 100%;
-  background-color: #eee;
-  border: 1px #e2e2e2;
-  padding: 5px;
-  width: 15px;
-  height: 15px;
 }
 
 /* aside grid */
@@ -314,11 +327,6 @@ aside {
 aside img {
   width: 72px;
   height: 72px;
-}
-
-.aside-links a {
-  text-decoration: none;
-  color: #333;
 }
 
 .aside-links a: hover {
@@ -353,12 +361,6 @@ aside img {
 /* Order the text on the image */
 #text1 {
   grid-column: 1/2;
-  grid-row: 2/3;
-  font-size: 8px;
-}
-
-#text2 {
-  grid-column: 2/3;
   grid-row: 2/3;
   font-size: 8px;
 }
@@ -555,6 +557,7 @@ aside img {
   grid-row: 9/10;
   grid-column: 3/4;
 }
+
 #popular-picks {
   grid-row: 7/8;
   grid-column: 1/2;
@@ -563,11 +566,6 @@ aside img {
 .mostpopular-right {
   grid-column: 4/5;
   grid-row: 1/10;
-}
-
-.mostpopular-right hr {
-  width: 100%;
-  color: #eee;
 }
 
 #popular-astronomy-hr {
@@ -599,11 +597,6 @@ aside img {
 .legal span {
   padding: 10px;
   font-size: 13px;
-}
-
-.legal a {
-  text-decoration: none;
-  color: #666;
 }
 
 .legal a: hover {
