@@ -1,4 +1,4 @@
-/*CSS File for a layout with one navbar, main, aside, and footer. A clone like NYTimes Articles page
+/* CSS File for a layout with one navbar, main, aside, and footer. A clone like NYTimes Articles page
 Body styling  */
 body p {
    font-family: helvetica, arial, sans-serif;
@@ -11,7 +11,7 @@ body {
   justify-content: center;
 }
 
-/* Nav for footer  */
+/*  Nav for footer  */
 footer hr {
   width: 90%;
   text-align: center;
@@ -94,7 +94,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Nav bar styling  */
+/*  Nav bar styling  */
 nav {
    border-bottom: 1px solid #e2e2e2;
    padding-bottom: 5px;
@@ -103,17 +103,17 @@ nav {
 }
 
 
-/* New York Times Logo image  */
+/*  New York Times Logo image  */
 nav img {
    height: 100%;
 }
 
-/* Leftmost buttons  */
+/*  Leftmost buttons  */
 .menu-btn {
    border: none;
 }
 
-/* Right buttons  */
+/*  Right buttons  */
 .sign-in-btn {
    border: 1px solid #eee;
    background-color: #567695;
@@ -137,7 +137,7 @@ main {
   flex-direction: column;
 }
 
-/* images in main  */
+/*  images in main  */
 main figure {
   padding-right: 12%;
   padding-left: 12%;
@@ -148,18 +148,18 @@ main img {
   height: 100%;
 }
 
-/* Video embedded style  */
+/*  Video embedded style  */
 iframe {
   width: 100%;
   height: 360px;
 }
 
-/* style in figcaption elements   */
+/*  style in figcaption elements   */
 figcaption {
   font-family: georgia, serif;
 }
 
-/*styling for Article seccion  */
+/* styling for Article seccion  */
 
 .social-icons i {
   float: right;
@@ -232,21 +232,21 @@ article .post hr {
 }
 
 
-/*  Info of an element  */
+/*   Info of an element  */
 .element-info {
   color: #666;
   font-size: 12px;
   font-weight: 300;
 }
 
-/* Copyright info  */
+/*  Copyright info  */
 .copyright {
   color: #888;
   font-size: 11px;
   font-weight: 300;
 }
 
-/* Styling Author section */
+/*  Styling Author section */
 .name-author {
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -269,7 +269,7 @@ article div p {
 }
 
 
-/*article bottom */
+/* article bottom */
 
 .article-bottom {
   padding-bottom: 8%;
@@ -291,7 +291,7 @@ article div p {
   line-height: 14px;
 }
 
-/* Icon styling */
+/*  Icon styling */
 i {
   border-radius: 100%;
   background-color: #eee;
@@ -301,7 +301,7 @@ i {
   height: 15px;
 }
 
-/*aside grid */
+/* aside grid */
 .aside-grid {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -329,7 +329,7 @@ aside img {
   text-decoration: underline;
 }
 
-/* Creates a grid for image about universe inflation  */
+/*  Creates a grid for image about universe inflation  */
 .wrapper {
 	display: grid;
 	width: 945px;
@@ -340,7 +340,7 @@ aside img {
   justify-content: space-between;
 }
 
-/*Inflation images takes all the grid */
+/* Inflation images takes all the grid */
 
 .image-grid {
 	grid-column: 1/5;
@@ -349,12 +349,12 @@ aside img {
 	height: 576px;
 }
 
-/*Fix line-height of paragraphs */
+/* Fix line-height of paragraphs */
 .wrapper p {
   line-height: normal;
 }
 
-/*Order the text on the image */
+/* Order the text on the image */
 #text1 {
 	grid-column: 1/2;
 	grid-row: 2/3;
@@ -414,14 +414,14 @@ aside img {
   margin: 0 0 0 0;
 }
 
-/* Info about print version */
+/*  Info about print version */
 .prin-info {
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
 }
 
-/* Grid in Most Popular section  */
+/*  Grid in Most Popular section  */
 
 .most-popular {
   display: grid;
@@ -432,7 +432,7 @@ aside img {
   margin: 0 12% 0 12%;
 }
 
-/* Title in Most popular section  */
+/*  Title in Most popular section  */
 
 .most-popular h2 {
   font-size: 0.875rem;
