@@ -48,14 +48,14 @@ Localhost.
 
 👤 **Juan Pulo Perez Tejada**
 
-- Github: [@githubhandle](https://github.com/Maclenn77)
-- Twitter: [@twitterhandle](https://twitter.com/srjuanpapas)
+- Github: [@Maclenn77](https://github.com/Maclenn77)
+- Twitter: [@srjuanpapas](https://twitter.com/srjuanpapas)
 - Linkedin: [linkedin](https://mx.linkedin.com/in/juanpaulopereztejada )
 
 👤 **Miguel Angel Enciso Sanchez**
 
-- Github: [@githubhandle](https://github.com/rootDEV2990)
-- Twitter: [@twitterhandle](https://twitter.com/m29902)
+- Github: [@rootDEV2990](https://github.com/rootDEV2990)
+- Twitter: [@m29902](https://twitter.com/m29902)
 - Linkedin: [linkedin](https://www.linkedin.com/in/miguel-enciso-6474741a1/)
 
 ## 🤝 Contributing
