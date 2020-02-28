@@ -16,9 +16,6 @@ footer hr {
   width: 90%;
   text-align: center;
   color: #333;
-
-
-
 }
 
 .footer-logo {
@@ -47,7 +44,6 @@ footer hr {
 footer nav {
   display: flex;
   justify-content: space-between;
-
 }
 
 footer nav span {
@@ -70,14 +66,11 @@ footer nav section:nth-child(6) {
   border-left: 2px solid #eee;
   padding-left: 2%;
   padding-right: 8%;
-
 }
 
 footer nav section:nth-child(6) span:nth-child(8){
   border-bottom: 2px solid #eee;
   padding-bottom: 4%;
-
-
 }
 
 footer nav section:nth-child(6) span:nth-child(9){
@@ -180,8 +173,6 @@ figcaption {
 	display: flex;
 	justify-content: center;
   padding-top: 3%;
-
-
 }
 
 article .post{
@@ -195,7 +186,6 @@ article .post hr {
   text-align: center;
   height: 1px;
   color: #e2e2e2;
-
 }
 
 .author-name {
@@ -208,7 +198,6 @@ article .post hr {
 #article-img {
 	padding-right: 13%;
 	padding-left: 13%;
-
 }
 
 #feat-img {
@@ -227,7 +216,6 @@ article .post hr {
 	text-align: center;
 	list-style: none;
 	font-weight: 800;
-
 }
 
 .sub-promo .ad-promo {
@@ -288,21 +276,18 @@ article div p {
 
 .article-bottom button {
   width: 50%;
-
 }
 
 .article-bottom p {
   font-size: 11px;
   color: rgb(102, 102, 102);
   line-height: 15px;
-
 }
 
 .article-bottom p a {
   font-size: 10px;
   color: rgb(102, 102, 102);
   line-height: 14px;
-
 }
 
 /* Icon styling*/
@@ -351,7 +336,6 @@ aside img {
 	grid-template-rows: 25% 25% 25% 25%;
   grid-column-gap: 3px;
   justify-content: space-between;
-
 }
 
 /*Inflation images takes all the grid*/
