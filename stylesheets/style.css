@@ -41,6 +41,7 @@ footer hr {
 footer section:nth-child(1){
   box-sizing: padding-box;
 
+
 }
 
 footer section:nth-child(1) figure {
@@ -177,9 +178,20 @@ figcaption {
 }
 
 /*styling for Article seccion*/
+
+.social-icons i {
+  float: right;
+  font-size: 17px;
+}
+
+.social-time {
+  font-size: 11px;
+}
+
 .article-sec {
 	display: flex;
 	justify-content: center;
+  padding-top: 3%;
 
 
 }
@@ -188,6 +200,21 @@ article .post{
 	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+article .post hr {
+  width: 25%;
+  text-align: center;
+  height: 1px;
+  color: #e2e2e2;
+
+}
+
+.author-name {
+  font-weight: 700;
+  font-size: 12px;
+  color: #333;
+  padding-bottom: 5%;
 }
 
 #article-img {
@@ -262,6 +289,32 @@ article div p {
   line-height: 1.875rem;
 }
 
+
+/*article bottom*/
+
+.article-bottom {
+  padding-bottom: 8%;
+}
+
+.article-bottom button {
+  width: 50%;
+
+}
+
+.article-bottom p {
+  font-size: 11px;
+  color: rgb(102, 102, 102);
+  line-height: 15px;
+  
+}
+
+.article-bottom p a {
+  font-size: 10px;
+  color: rgb(102, 102, 102);
+  line-height: 14px;
+  
+}
+
 /* Icon styling*/
 i {
   border-radius: 100%
@@ -282,8 +335,8 @@ i {
 }
 aside {
   align-self: flex-end;
-  position: relative;
-  top: 1000px;
+  position: absolute;
+  top: 2000px;
 }
 
 aside img {
@@ -559,4 +612,9 @@ aside img {
 
 .legal a:hover {
   text-decoration: underline;
+}
+
+
+#border-box span {
+  line-height: 50px;
 }
