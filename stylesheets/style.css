@@ -38,20 +38,8 @@ footer hr {
   text-decoration: underline;
 }
 
-footer section:nth-child(1){
-  box-sizing: padding-box;
-
-
-}
-
-footer section:nth-child(1) figure {
-  box-sizing: content-box;
-
-}
-
 #go-home {
   float:right;
-
 }
 
 
@@ -102,14 +90,14 @@ footer nav section h2 {
   font-size:13px;
 }
 
-footer nav section span a {
+footer nav a {
   font-weight: 500;
   font-size: 12px;
   color: #000;
   text-decoration: none;
 }
 
-footer nav section span a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
@@ -140,7 +128,7 @@ nav img {
    font-size: 11px;
    font-weight: 600;
    cursor: pointer;
-   transition: ease 0.65;
+   transition: ease 0.65s;
    color: #fff;
    line-height: 30px;
 }
@@ -224,8 +212,9 @@ article .post hr {
 }
 
 #feat-img {
-  padding-left: 23%;
-  padding-right: 25%;
+  margin-left: 18%;
+  margin-right: 15%;
+  max-width: 600px;
 }
 
 .sub-promo hr {
@@ -272,7 +261,8 @@ article .post hr {
 .name-author {
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  font-weight: #333;
+  color: #333;
+  font-weight: 700;
 }
 
 a.name-author {
@@ -305,33 +295,33 @@ article div p {
   font-size: 11px;
   color: rgb(102, 102, 102);
   line-height: 15px;
-  
+
 }
 
 .article-bottom p a {
   font-size: 10px;
   color: rgb(102, 102, 102);
   line-height: 14px;
-  
+
 }
 
 /* Icon styling*/
 i {
-  border-radius: 100%
-  background-color: #eee:
-  border: 1px solid;
+  border-radius: 100%;
+  background-color: #eee;
+  border: 1px #e2e2e2;
   padding: 5px;
   width: 15px;
   height: 15px;
 }
 
 /*aside grid*/
-#aside-grid {
+.aside-grid {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-  grid-template-rows: 10px repeat(4,1fr)
+  grid-template-rows: 10px repeat(4,1fr);
 	width: 350px;
-  grid-row-gap: 40px;
+  grid-row-gap: 20px;
 }
 aside {
   align-self: flex-end;
@@ -344,6 +334,14 @@ aside img {
   height: 72px;
 }
 
+.aside-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.aside-links a:hover {
+  text-decoration: underline;
+}
 /*Creates a grid for image about universe inflation*/
 .wrapper {
 	display: grid;
@@ -458,7 +456,7 @@ aside img {
 }
 
 .most-popular h3 {
-  font-size: 1.125;
+  font-size: 1.125rem;
   color: rgb(18, 18, 18);
   line-height: 22px;
 }
