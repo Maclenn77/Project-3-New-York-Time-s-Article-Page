@@ -39,8 +39,6 @@ footer hr {
   float: right;
 }
 
-
-
 footer nav {
   display: flex;
   justify-content: space-between;
@@ -96,34 +94,33 @@ footer a: hover {
 
 /*  Nav bar styling  */
 nav {
- border-bottom: 1px solid #e2e2e2;
- padding-bottom: 5px;
- display: flex;
- justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 /*  New York Times Logo image  */
 nav img {
- height: 100%;
+  height: 100%;
 }
 
 /*  Leftmost buttons  */
 .menu-btn {
- border: none;
+  border: none;
 }
 
 /*  Right buttons  */
 .sign-in-btn {
- border: 1px solid #eee;
- background-color: #567695;
- border-radius: 3px;
- font-size: 11px;
- font-weight: 600;
- cursor: pointer;
- transition: ease 0.65s;
- color: #fff;
- line-height: 30px;
+  border: 1px solid #eee;
+  background-color: #567695;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease 0.65s;
+  color: #fff;
+  line-height: 30px;
 }
 
 h1 {
@@ -231,7 +228,6 @@ article .post hr {
   float: right;
 }
 
-
 /*  Info of an element  */
 .element-info {
   color: #666;
@@ -267,7 +263,6 @@ article div p {
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
-
 
 /* article bottom */
 
@@ -305,10 +300,11 @@ i {
 .aside-grid {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-  grid-template-rows: 10px repeat(4,1fr);
+  grid-template-rows: 10px repeat(4, 1fr);
 	width: 350px;
   grid-row-gap: 20px;
 }
+
 aside {
   align-self: flex-end;
   position: absolute;
@@ -464,6 +460,7 @@ aside img {
   width: 273px;
   height: 190px;
 }
+
 .most-popular img {
   width: 273px;
   height: 182px;
@@ -473,6 +470,7 @@ aside img {
   grid-row: 2/3;
   grid-column: 1/2;
 }
+
 #mostpopular1 {
   grid-row: 3/4;
   grid-column: 1/2;
@@ -482,6 +480,7 @@ aside img {
   grid-row: 2/3;
   grid-column: 2/3;
 }
+
 #mostpopular2 {
   grid-row: 3/4;
   grid-column: 2/3;
@@ -491,54 +490,67 @@ aside img {
   grid-row: 2/3;
   grid-column: 3/4;
 }
+
 #mostpopular3 {
   grid-row: 3/4;
   grid-column: 3/4;
 }
+
 #popular-image4 {
   grid-row: 5/6;
   grid-column: 1/2;
 }
+
 #mostpopular4 {
   grid-row: 6/7;
   grid-column: 1/2;
 }
+
 #popular-image5 {
   grid-row: 5/6;
   grid-column: 2/3;
 }
+
 #mostpopular5 {
   grid-row: 6/7;
   grid-column: 2/3;
 }
+
 #popular-image6 {
   grid-row: 5/6;
   grid-column: 3/4;
 }
+
 #mostpopular6 {
   grid-row: 6/7;
   grid-column: 3/4;
 }
+
 #popular-image7 {
   grid-row: 8/9;
   grid-column: 1/2;
 }
+
 #mostpopular7 {
   grid-row: 9/10;
   grid-column: 1/2;
 }
+
 #popular-image8 {
   grid-row: 8/9;
   grid-column: 2/3;
 }
+
 #mostpopular8 {
   grid-row: 9/10;
   grid-column: 2/3;
 }
+
 #popular-image9 {
   grid-row: 8/9;
   grid-column: 3/4;
 }
+
 #mostpopular9 {
   grid-row: 9/10;
   grid-column: 3/4;
@@ -597,7 +609,6 @@ aside img {
 .legal a: hover {
   text-decoration: underline;
 }
-
 
 #border-box span {
   line-height: 50px;
