@@ -31,12 +31,12 @@ footer hr {
   font-weight: 300;
 }
 
-.footer-logo a:hover {
+.footer-logo a: hover {
   text-decoration: underline;
 }
 
 #go-home {
-  float:right;
+  float: right;
 }
 
 
@@ -57,30 +57,30 @@ footer nav section {
   flex-direction: column;
 }
 
-footer nav section:nth-child(1) {
+footer nav section: nth-child(1) {
   padding-left: 6%;
   padding-bottom: 30px;
 }
 
-footer nav section:nth-child(6) {
+footer nav section: nth-child(6) {
   border-left: 2px solid #eee;
   padding-left: 2%;
   padding-right: 8%;
 }
 
-footer nav section:nth-child(6) span:nth-child(8) {
+footer nav section: nth-child(6) span: nth-child(8) {
   border-bottom: 2px solid #eee;
   padding-bottom: 4%;
 }
 
-footer nav section:nth-child(6) span:nth-child(9) {
+footer nav section: nth-child(6) span: nth-child(9) {
   padding-top: 6%;
 }
 
 footer nav section h2 {
   color: #333;
   font-weight: 700;
-  font-size:13px;
+  font-size: 13px;
 }
 
 footer nav a {
@@ -90,7 +90,7 @@ footer nav a {
   text-decoration: none;
 }
 
-footer a:hover {
+footer a: hover {
   text-decoration: underline;
 }
 
@@ -258,7 +258,7 @@ a.name-author {
   color: #333;
 }
 
-a.name-author:hover {
+a.name-author: hover {
   text-decoration: none;
 }
 
@@ -325,7 +325,7 @@ aside img {
   color: #333;
 }
 
-.aside-links a:hover {
+.aside-links a: hover {
   text-decoration: underline;
 }
 
@@ -594,7 +594,7 @@ aside img {
   color: #666;
 }
 
-.legal a:hover {
+.legal a: hover {
   text-decoration: underline;
 }
 
