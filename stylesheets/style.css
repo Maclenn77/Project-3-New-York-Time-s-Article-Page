@@ -98,6 +98,11 @@ footer nav section:nth-child(1) {
   padding-bottom: 30px;
 }
 
+.legal span {
+  padding: 10px;
+  font-size: 13px;
+}
+
 footer nav section:nth-child(6) {
   border-left: 2px solid #eee;
   padding-left: 2%;
@@ -119,8 +124,24 @@ footer nav section h2 {
   font-size: 13px;
 }
 
+.legal a {
+  text-decoration: none;
+  color: #666;
+}
+
+.aside-links a {
+  text-decoration: none;
+  color: #333;
+}
+
 footer a:hover {
   text-decoration: underline;
+}
+
+.bold a {
+  font-family: helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 /*  Leftmost buttons  */
@@ -309,16 +330,6 @@ article div p {
   font-size: 11px;
   color: rgb(102, 102, 102);
   line-height: 15px;
-}
-
-.aside-links a {
-  text-decoration: none;
-  color: #333;
-}
-
-.legal a {
-  text-decoration: none;
-  color: #666;
 }
 
 .article-bottom p a {
@@ -612,11 +623,6 @@ aside img {
   justify-content: center;
 }
 
-.legal span {
-  padding: 10px;
-  font-size: 13px;
-}
-
 .legal a: hover {
   text-decoration: underline;
 }
@@ -628,10 +634,4 @@ aside img {
 svg {
   width: 16px;
   height: 16px;
-}
-
-.bold a {
-  font-family: helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
 }
